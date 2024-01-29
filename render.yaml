@@ -3,7 +3,7 @@ services:
   - type: web
     name: AnonymousChatBot
     env: python
-    startCommand: python3 main.py
+    startCommand: python3 app.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/Itssaravanakrish/RandomChatBot-1.git # optional
     region: oregon # optional (defaults to oregon)
